@@ -5,9 +5,11 @@ char *externalpipe_sigusr1[] = {"/bin/sh", "-c", "externalpipe_buffer.sh st_stri
  * appearance
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-// static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:style=Medium:pixelsize=18:antialias=true:autohint=true";
+// static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
+// static char *font = "Fira Code:style=Medium:pixelsize=18:antialias=true:autohint=true";
+//
 // static char *font = "VictorMono Nerd Font:style=Medium:pixelsize=18:antialias=true:autohint=true";
-static char *font = "Fira Code:style=Medium:pixelsize=18:antialias=true:autohint=true";
 // static char *font = "3270medium nerd font mono:pixelsize=20:antialias=true:autohint=true";
 // static char *font = "roboto mono:pixelsize=16:antialias=true:autohint=true";
 // static char *font = "Monospace:pixelsize=14:antialias=true:autohint=true";
