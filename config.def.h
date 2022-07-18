@@ -5,9 +5,12 @@ char *externalpipe_sigusr1[] = {"/bin/sh", "-c", "externalpipe_buffer.sh st_stri
  * appearance
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font:style=Medium:pixelsize=18:antialias=true:autohint=true";
-// static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
+ static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
+ // static char *font = "JetBrainsMono Nerd Font:style=Medium:pixelsize=18:antialias=true:autohint=true";
+ // static char *font = "Iosevka Nerd Font Mono:style=Light:pixelsize=18:antialias=true:autohint=true";
+ // static char *font = "JetBrains Mono Light:pixelsize=18:antialias=true:autohint=true";
 // static char *font = "Fira Code:style=Medium:pixelsize=18:antialias=true:autohint=true";
+ // static char *font = "Comic Mono:pixelsize=18:style=Light";
 //
 // static char *font = "VictorMono Nerd Font:style=Medium:pixelsize=18:antialias=true:autohint=true";
 // static char *font = "3270medium nerd font mono:pixelsize=20:antialias=true:autohint=true";
@@ -102,7 +105,8 @@ unsigned int tabspaces = 8;
 
 /* bg opacity */
 // float alpha = 0.70, alphaUnfocused = 0.3;
-float alpha = 0.60, alphaUnfocused = 0.3;
+float alpha = 0.70, alphaUnfocused = 0.3;
+// float alpha = 0.95, alphaUnfocused = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {

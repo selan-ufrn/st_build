@@ -3,4 +3,5 @@
 bin
 *.swp
 .*.swp
+config.h
 st
